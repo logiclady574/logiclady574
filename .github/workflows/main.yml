@@ -1,0 +1,126 @@
+
+
+
+---
+
+index.html (main site)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BossCoded eBooks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BossCoded</h1>
+    <p>Digital Notes & eBooks by a Teen Girl Boss</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a 14 y/o business-minded student sharing my notes, guides, and digital products.  
+      Every eBook is designed with clarity, aesthetic and affordability.  
+      Let's grow smarter together!
+    </p>
+  </section>
+
+  <section class="products">
+    <h2>My eBooks</h2>
+    
+    <div class="product-card">
+      <h3>Class 9 Science Notes</h3>
+      <p>Chapter-wise notes in PDF – neat, simple & exam-ready.</p>
+      <a href="assets/products/science_notes.pdf" download>Download PDF</a>
+    </div>
+
+    <div class="product-card">
+      <h3>Python Basics Guide</h3>
+      <p>Learn Python from scratch – written by me for students like you!</p>
+      <a href="assets/products/python_guide.pdf" download>Download PDF</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with love by BossCoded | Follow on Instagram: @bosscoded</p>
+  </footer>
+</body>
+</html>
+
+
+---
+
+style.css (design)
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff9f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #ffb6c1;
+  color: white;
+  padding: 30px;
+}
+
+.about, .products {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ffe3ec;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.product-card h3 {
+  color: #ff4b6e;
+}
+
+a {
+  text-decoration: none;
+  background: #ff4b6e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  background: #fddde6;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+
+---
+
+Folder Structure:
+
+bosscoded-site/
+│
+├── index.html
+├── style.css
+└── assets/
+    └── products/
+        ├── science_notes.pdf
+        └── python_guide.pdf
+
+
+---
+
+Ready to upload this to GitHub and make it live?
+
